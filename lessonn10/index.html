@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type='number']{
+            border: 4px solid pink;
+        }
+        input[type='text']{
+            border: 4 px purple;
+        }
+
+        .class1 > p{
+            text-shadow: 8px 3px 1 px grey;
+        }
+        h2 + p{
+            background-color: cyan;
+        }
+
+        .class3:hover{
+            background-color: blueviolet;
+        }
+
+        li:nth-child(3){
+            background-color: red;
+        }
+        p:not(.class4){
+            background-color: bisque;
+        }
+
+        .class6::before{
+            content:"😭"
+        }
+        .class6::after{
+            content:"😭"
+        }
+        .class7::first-letter{
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text">
+    <input type="number">
+    <p>I Am Sitting Near A Door.</p>
+    <div class="class1">
+         <p>I Am Sitting Near A Door.</p>
+          <p>I Am Sitting Near A Door.In My Room</p>
+    </div>
+    <p>I Am Sitting Near A Door.In My Room</p>
+    <h2 class="class2">
+        heading 2
+    </h2>
+    <p>I Am Sitting Near A Door.In My Room.In My Parents House</p>
+
+    <p class="class3">
+       I Am Sitting Near A Door.In My Room.
+</p>
+
+<ul>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+</ul>
+
+<p class="class4">I Am Sitting Near A Door.In My Room.</p>
+<p class="class5"></p>
+<p class="class6">I Am Sitting Near A Door.</p>
+<p class="class7">I Am Sitting Near A Door.In My Room.</p>
+</body>
+</html>
